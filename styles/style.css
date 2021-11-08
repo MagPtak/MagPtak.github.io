@@ -129,19 +129,90 @@ h4 {
   box-shadow: 0px 0px 9px 0px #f0efef;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1024px) {
   .container {
+    width: 750px;
+    height: 900px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    color: white;
-    margin: 0;
+    align-items: center;
+    margin: auto;
   }
 
   .headerWrapper {
     flex-direction: column-reverse;
+    margin-top: 5%;
+    height: 60%;
+  }
+
+  .photo {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-right: 0;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 65%;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+
+  span {
+    font-size: 26px;
+  }
+
+  .skillsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 75%;
+  }
+
+  .btn,
+  .btn2 {
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    border-radius: 9px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 550px;
+    width: 300px;
+    color: white;
+    margin: auto;
+  }
+
+  .headerWrapper {
+    flex-direction: column-reverse;
+    margin-top: 15%;
+    height: 60%;
   }
 
   .wrapper {
@@ -152,13 +223,13 @@ h4 {
     align-self: center;
     width: 100%;
     height: 60%;
-    margin-top: 100px;
+    margin-top: 20%;
   }
   main {
     display: flex;
     height: 100vh;
-    width: 100%;
-    background-image: url(/img/small.jpg);
+    width: 100vw;
+    background-image: url(/img/2.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -169,27 +240,26 @@ h4 {
   }
 
   .photo img {
-    height: 200px;
-    width: 200px;
+    height: auto;
+    width: 50vw;
     border-radius: 50%;
     box-shadow: 0px 0px 9px 0px #f0efef;
   }
 
   h2 {
-    font-size: 25px;
-    line-height: 1.1;
+    font-size: 20px;
     text-align: center;
   }
 
   span {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .skillsWrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 100%;
+    height: 40%;
     width: 100%;
   }
 
@@ -199,15 +269,21 @@ h4 {
   }
 
   h4 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: 12px;
   }
 
+  .circle,
+  .circle1 {
+    width: 5px;
+    height: 5px;
+  }
   .skills {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100%;
     height: 10%;
-    margin-top: 90px;
+    margin-top: 60px;
   }
 
   .wrapperBottom {
@@ -221,6 +297,7 @@ h4 {
   .btn2 {
     padding: 9px;
     font-size: 13px;
+    font-weight: normal;
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
     border: none;
@@ -230,6 +307,5 @@ h4 {
 
   .contactLinks {
     justify-content: space-around;
-    margin-bottom: 40px;
   }
 }
