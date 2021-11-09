@@ -1,0 +1,73 @@
+body {
+  font-family: "Segoe UI", Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 50px;
+}
+
+article {
+  background-color: rgb(197, 202, 197);
+  box-shadow: 0px 0px 20px 0px #a1a1a1;
+  margin: 20px 80px;
+}
+
+h4 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 200;
+  margin-right: 10px;
+}
+
+.projectContainer {
+  display: flex;
+  justify-content: center;
+  width: 1600px;
+}
+
+.projectVersion {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 20px;
+}
+
+span {
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.projectVersion h2 {
+  margin: 0 0 10px 20px;
+}
+
+.projectVersion img {
+  height: 90%;
+  margin: 0 20px;
+}
+
+.rwdProjectContainer {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}
