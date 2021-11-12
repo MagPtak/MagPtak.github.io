@@ -1,24 +1,30 @@
 body {
-  font-family: "Segoe UI", Helvetica, sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  background-image: url(/img/2.jpg);
+  color: rgb(219, 219, 219);
 }
 
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 20px 50px;
+  align-items: center;
 }
 
 article {
-  background-color: rgb(197, 202, 197);
-  box-shadow: 0px 0px 20px 0px #a1a1a1;
-  margin: 20px 80px;
+  background-color: rgba(197, 202, 197, 0.4);
+  box-shadow: 0px 0px 10px 0px #a1a1a1;
+  margin: 20px 0;
+  width: 90%;
+  max-width: 1700px;
+  border-radius: 5px;
 }
 
-h4 {
+h2 {
   font-size: 28px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 600;
+  line-height: 3;
 }
 
 h3 {
@@ -31,25 +37,26 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px;
 }
 
-h2 {
+h4 {
   font-size: 18px;
   font-weight: 200;
-  margin-right: 10px;
+  margin: 10px 0 10px 20px;
 }
 
 .projectContainer {
   display: flex;
   justify-content: center;
-  width: 1600px;
+  width: 100%;
 }
 
 .projectVersion {
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin-top: 20px;
+  margin: 15px 0;
 }
 
 span {
@@ -69,5 +76,5 @@ span {
 .rwdProjectContainer {
   display: flex;
   justify-content: center;
-  width: 700px;
+  width: 50%;
 }

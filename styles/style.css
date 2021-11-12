@@ -1,5 +1,5 @@
 body {
-  font-family: "Segoe UI", Helvetica, sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 main {
@@ -98,8 +98,7 @@ h4 {
   width: 100%;
 }
 
-.btn,
-.btn2 {
+.btn {
   padding: 15px 25px;
   font-size: 14px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -293,8 +292,7 @@ h4 {
     height: 15%;
   }
 
-  .btn,
-  .btn2 {
+  .btn {
     padding: 9px;
     font-size: 13px;
     font-weight: normal;
