@@ -67,15 +67,6 @@ h4 {
   margin: 15px 0;
 }
 
-span {
-  line-height: 1.7;
-  font-weight: 400;
-}
-
-.projectVersion h2 {
-  margin: 0 0 10px 20px;
-}
-
 .projectVersion img {
   height: 90%;
   margin: 0 20px;
@@ -138,10 +129,6 @@ img {
     margin: 0 0 7px 20px;
   }
 
-  span {
-    line-height: 1;
-  }
-
   .rwdProjectContainer {
     margin-top: 10px;
   }
@@ -170,9 +157,6 @@ img {
     margin: 0 0 7px 7px;
   }
 
-  span {
-    line-height: 1;
-  }
   section {
     margin: 0;
   }
