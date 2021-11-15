@@ -166,11 +166,15 @@ img {
   }
 
   .projectVersion img {
-    height: 95%;
-    margin: 0 5px;
+    width: 95%;
+    margin: 0 auto;
   }
 
   .projectVersion {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 10px;
     margin-bottom: 10px;
   }
 

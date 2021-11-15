@@ -85,13 +85,12 @@ span {
 
 img {
   border-radius: 4px;
-  width: 90%;
 }
 
 .rwdProjectContainer {
   display: flex;
   justify-content: center;
-  width: 50%;
+  width: 95%;
 }
 
 .btn {
@@ -182,11 +181,14 @@ img {
   }
 
   .projectVersion img {
-    height: 95%;
-    margin: 0 5px;
+    width: 95%;
+    margin: 0 auto;
   }
 
   .projectVersion {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     margin-bottom: 10px;
   }
 
