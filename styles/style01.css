@@ -36,9 +36,11 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 200;
-  text-align: center;
+  text-align: justify;
+  width: 88%;
+  color: rgb(197, 196, 196);
 }
 
 section {
@@ -49,7 +51,7 @@ section {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 200;
   margin: 10px 0 10px 20px;
 }
@@ -163,6 +165,7 @@ img {
 
   h3 {
     font-size: 14px;
+    text-align: justify;
   }
 
   h4 {
@@ -189,6 +192,7 @@ img {
   .btn {
     padding: 10px 25px;
     font-size: 10px;
+    width: 80px;
   }
 
   .home {
