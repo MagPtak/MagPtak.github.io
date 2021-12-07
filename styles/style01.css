@@ -191,6 +191,9 @@ img {
     justify-content: center;
     margin-bottom: 10px;
   }
+  .rwdProjectContainer {
+    width: 97%;
+  }
 
   .btn {
     padding: 10px 25px;
